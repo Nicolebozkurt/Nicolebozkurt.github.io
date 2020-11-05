@@ -3,35 +3,38 @@
   <head>
       <meta charset="utf-8"/>
        <title>Australia</title>
-  </head>
+       <link rel="stylesheet" href= "australia-style.css"/>
+       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <body>
+    <div class = "grid-container">
+    <div class="grid-item">
     <header>
     <h1>Australia</h1>
-      <nav>
-          <ul>
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#geography">Geography</a></li>
-              <li><a href="#economy">Economy</a></li>
-              <li><a href="#energy">Energy</a></li>
-          </ul>
-      </nav>
-      <img src="australia-tree.jpg" alt="australianscenery"/>
     </header>
+  </div>
     <main>
-      <section id="introduction">
-    <h2>Introduction</h2>
-      <p>Prehistoric settlers arrived on the continent from Southeast Asia at least 40,000 years before the first Europeans began exploration in the 17th century</P>
-      <p>In recent decades, Australia has become an internationally competitive, advanced market economy due in large part to economic reforms adopted in the 1980s and its location in one of the fastest growing regions of the world economy.</p>
+    <div class="grid-item">
+     <section id="introduction">
+       <h2 id = "intro-title">Introduction</h2>
+    <img id="tree-photo" src="australia-images/australia-tree.jpg" alt="australianscenery"/>
+      <p id="paragraph-one">Prehistoric settlers arrived on the continent from Southeast Asia at least 40,000 years before the first Europeans began exploration in the 17th century.</P>
+      <p id="paragraph-two">In recent decades, Australia has become an internationally competitive, advanced market economy due in large part to economic reforms adopted in the 1980s and its location in one of the fastest growing regions of the world economy.</p>
     </section>
-    <section id="geography">
-    <h2>Geography</h2>
-      <article>
-      <h3>Climate</h3>
+  </div>
+    <div class="grid-item">
+      <section id="geography"><h2>Geography</h2>
+      </section>
+      <article class= "Climate-section">
+    <section id= "climate"><h3>Climate</h3>
         <p>The climate is generally arid to semiarid, temperate in south and east and tropical in north.</p>
+        <p>Most of the country receives more than 3,000 hours of sunshine a year.</p>
+      </section>
       </article>
-      <article>
+      <article class= "Land-Use-Section">
+      <section id="land-use">
       <h3>Land Use</h3>
-      <table border="1">
+      <section id="land-table">
+      <table>
           <tr>
               <th>Category</th>
               <th>Percentage</th>
@@ -49,9 +52,12 @@
               <td>30.9%</td>
           </tr>
         </table>
+      </section>
+      </section>
       </article>
-      <article>
-      <h3>Natural Resources</h3>
+      <article class= "natural-resources-section">
+        <section id="natural-resources">
+      <h3 >Natural Resources</h3>
         <ul>
           <li>alumina</li>
           <li>coal</li>
@@ -71,16 +77,19 @@
           <li>petroleum</li>
           <li>rare earth elements</li>
         </ul>
+        </section>
     </article>
-    </section>
+    </div>
+    <div class="grid-item">
     <section id="economy">
-    <h2>Economy</h2>
+    <h2 id = "economy-title">Economy</h2>
     <figure>
-    <img src="Australia-5-Dollar-Bill.jpg" alt="Australian Currency"/>
-    <figcaption><a href=https://www.aboutaustralia.com/currency-australia/>Australian Dollar (AUD)</a></figcaption>
+    <img id="dollar-photo" src="australia-images/Australia-5-Dollar-Bill.jpg" alt="Australian Currency"/>
+    <figcaption id="dollar-caption"><a href=https://www.aboutaustralia.com/currency-australia/>Australian Dollar (AUD)</a></figcaption>
   </figure>
 
-      <article>
+      <article class="agriculture-Section">
+      <section id="Agriculture">
       <h3>Agriculture</h3>
         <ul>
             <li>wheat</li>
@@ -91,7 +100,9 @@
             <li>sheep</li>
             <li>poultry</li>
         </ul>
+       </section>
       </article>
+      <section id="Industries">
       <h3>Industries</h3>
         <ul>
             <li>mining</li>
@@ -100,9 +111,11 @@
             <li>chemicals</li>
             <li>steel</li>
         </ul>
-      <article>
+      </section>
+      <article class= "labor-force-section">
+      <section id="Labor-Force">
       <h3>Labor Force</h3>
-          <table border="1">
+          <table>
           <tr>
             <th>Category</th>
             <th>Percentage</th>
@@ -120,13 +133,17 @@
             <td>75.3%</td>
           </tr>
         </table>
+      </section>
     </article>
     </section>
+  </div>
+    <div class="grid-item">
     <section id="energy">
-    <h2>Energy</h2>
-     <article>
+    <h2 id= "energy-title">Energy</h2>
+     <article class="production-section">
+      <section id="production">
       <h3>Production</h3>
-        <table border="1">
+        <table>
           <tr>
             <th>Electricity</th>
             <th>Crude Oil</th>
@@ -138,10 +155,12 @@
               <td>105.2 Billion<dfn><abbr title= "Cubic Units">cu</abbr></dfn></td>
           </tr>
           </table>
+        </section>
       </article>
-      <article>
+      <article class= "consumption-section">
+        <section id="consumption">
       <h3>Consumption</h3>
-      <table border="1">
+      <table>
         <tr>
           <th>Electricity</th>
           <th>Crude Oil</th>
@@ -153,10 +172,12 @@
           <td>45.25 Billion cu</td>
         </tr>
       </table>
+    </section>
     </article>
-    <article>
+    <article class= exports-section>
+      <section id="exports">
       <h3>Exports</h3>
-        <table border="1">
+        <table>
           <tr>
             <th>Electricity</th>
             <th>Crude Oil</th>
@@ -168,11 +189,16 @@
            <td>67.96 cu</td>
          </tr>
         </table>
+      </section>
       </article>
       </section>
+    </div>
       </main>
+      <div class= "grid-item">
       <footer>
-         <p>Source:<a href=https://www.cia.gov/library/publications/the-world-factbook/geos/as.html>CIA World Factbook</a></p>
+         <p>Source: <a href=https://www.cia.gov/library/publications/the-world-factbook/geos/as.html>CIA World Factbook</a></p>
       </footer>
+    </div>
+    </div>
   </body>
 </html>
