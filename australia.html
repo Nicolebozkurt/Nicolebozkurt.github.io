@@ -1,37 +1,33 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
       <meta charset="utf-8"/>
        <title>Australia</title>
+       <link rel="stylesheet" href="australia-style.css"/>
+       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
     <h1>Australia</h1>
-      <nav>
-          <ul>
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#geography">Geography</a></li>
-              <li><a href="#economy">Economy</a></li>
-              <li><a href="#energy">Energy</a></li>
-          </ul>
-      </nav>
-      <img src="australia-tree.jpg" alt="australianscenery"/>
     </header>
     <main>
-      <section id="introduction">
-    <h2>Introduction</h2>
-      <p>Prehistoric settlers arrived on the continent from Southeast Asia at least 40,000 years before the first Europeans began exploration in the 17th century</P>
-      <p>In recent decades, Australia has become an internationally competitive, advanced market economy due in large part to economic reforms adopted in the 1980s and its location in one of the fastest growing regions of the world economy.</p>
-    </section>
-    <section id="geography">
-    <h2>Geography</h2>
-      <article>
-      <h3>Climate</h3>
+     <div class="intro">
+       <h2 id="intro-title">Introduction</h2>
+    <img id="tree-photo" src="australia-images/australia-tree.jpg" alt="australianscenery"/>
+  <div id="intro-paragraphs">
+      <p id="paragraph-one">Prehistoric settlers arrived on the continent from Southeast Asia at least 40,000 years before the first Europeans began exploration in the 17th century.</P>
+      <p id="paragraph-two">In recent decades, Australia has become an internationally competitive, advanced market economy due in large part to economic reforms adopted in the 1980s and its location in one of the fastest growing regions of the world economy.</p>
+    </div>
+  </div>
+      <div class="Geography">
+        <h2>Geography</h2>
+    <div id="climate"><h3>Climate</h3>
         <p>The climate is generally arid to semiarid, temperate in south and east and tropical in north.</p>
-      </article>
-      <article>
+        <p>Most of the country receives more than 3,000 hours of sunshine a year.</p>
+      </div>
+      <div id="land-use">
       <h3>Land Use</h3>
-      <table border="1">
+      <table>
           <tr>
               <th>Category</th>
               <th>Percentage</th>
@@ -49,8 +45,8 @@
               <td>30.9%</td>
           </tr>
         </table>
-      </article>
-      <article>
+      </div>
+        <div id="natural-resources">
       <h3>Natural Resources</h3>
         <ul>
           <li>alumina</li>
@@ -71,12 +67,11 @@
           <li>petroleum</li>
           <li>rare earth elements</li>
         </ul>
-    </article>
-    </section>
-    <section id="economy">
+      </div>
+    </div>
+  <div class="economy">
     <h2>Economy</h2>
-    <img src="Australia-5-Dollar-Bill.jpg" alt="Australian Currency"/>
-      <article>
+      <div id="Agriculture">
       <h3>Agriculture</h3>
         <ul>
             <li>wheat</li>
@@ -87,7 +82,8 @@
             <li>sheep</li>
             <li>poultry</li>
         </ul>
-      </article>
+      </div>
+    <div id="Industries">
       <h3>Industries</h3>
         <ul>
             <li>mining</li>
@@ -96,9 +92,10 @@
             <li>chemicals</li>
             <li>steel</li>
         </ul>
-      <article>
+      </div>
+      <div id="Labor-Force">
       <h3>Labor Force</h3>
-          <table border="1">
+          <table>
           <tr>
             <th>Category</th>
             <th>Percentage</th>
@@ -116,28 +113,34 @@
             <td>75.3%</td>
           </tr>
         </table>
-    </article>
-    </section>
-    <section id="energy">
+      </div>
+      <div id="dollar-image">
+          <figure>
+          <img id="dollar-photo" src="australia-images/Australia-5-Dollar-Bill.jpg" alt="Australian Currency"/>
+          <figcaption id="dollar-caption"><a href=https://www.aboutaustralia.com/currency-australia/>Australian Dollar (AUD)</a></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="energy">
     <h2>Energy</h2>
-     <article>
+      <div id="production">
       <h3>Production</h3>
-        <table border="1">
+        <table>
           <tr>
             <th>Electricity</th>
             <th>Crude Oil</th>
             <th>Natural Gas</th>
           </tr>
           <tr>
-              <td>243 Billion <a href=https://www.ovoenergy.com/guides/energy-guides/what-is-a-kwh-kw-and-kwh-explained.html>kWh</a></td>
-              <td>284,000 <a href=https://en.wikipedia.org/wiki/Barrel_(unit)>bbl</a></td>
-              <td>105.2 Billion <a href=https://en.wikipedia.org/wiki/Cubic_inch>cu</a></td>
+              <td>243 Billion<dfn><abbr title="Kilowatt Hour">kWh</abbr></dfn></td>
+              <td>284,000<dfn><abbr title="Barrel">bbl</abbr></dfn></td>
+              <td>105.2 Billion<dfn><abbr title= "Cubic Units">cu</abbr></dfn></td>
           </tr>
           </table>
-      </article>
-      <article>
+      </div>
+      <div id="consumption">
       <h3>Consumption</h3>
-      <table border="1">
+      <table>
         <tr>
           <th>Electricity</th>
           <th>Crude Oil</th>
@@ -149,10 +152,10 @@
           <td>45.25 Billion cu</td>
         </tr>
       </table>
-    </article>
-    <article>
+  </div>
+    <div id="exports">
       <h3>Exports</h3>
-        <table border="1">
+        <table>
           <tr>
             <th>Electricity</th>
             <th>Crude Oil</th>
@@ -164,11 +167,11 @@
            <td>67.96 cu</td>
          </tr>
         </table>
-      </article>
-      </section>
+      </div>
+    </div>
       </main>
       <footer>
-         <p>Source:<a href=https://www.cia.gov/library/publications/the-world-factbook/geos/as.html>CIA World Factbook</a></p>
+         <p>Source: <a href=https://www.cia.gov/library/publications/the-world-factbook/geos/as.html>CIA World Factbook</a></p>
       </footer>
   </body>
 </html>

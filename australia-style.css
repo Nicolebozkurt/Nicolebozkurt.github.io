@@ -1,0 +1,187 @@
+
+h1{
+  color: rgb(237,237,237);
+  background-color: rgb(91,188,172);
+  margin:0px;
+  position: relative;
+  padding: 20px;
+  font-size:80px;
+  font-family:'oswald',sans-serif;
+  display: block;
+  width:100%;
+}
+h2{
+  color:rgb(237,237,237);
+  font-size:40px;
+  font-family:'roboto',sans-serif;
+  background-color: rgb(91,188,172);
+  padding: 10px;
+  grid-column: 1 / span 3;
+  width: 100%;
+}
+#intro-title{
+  grid-column: 1 / span 8;
+}
+h3{
+  color:rgb(66,67,68);
+  font-family: sans-serif;
+  font-size: 20px;
+}
+footer{
+  background-color: #000;
+  font-family: sans-serif;
+  box-shadow: 0 50vh 0 50vh #000;
+  height: 60px;
+  position: relative;
+  padding-top: 20px;
+}
+li{
+  color:rgb(66,67,68);
+  font-family: sans-serif;
+}
+tr{
+  color:rgb(66,67,68);
+  font-family: sans-serif;
+}
+p{
+  color:rgb(66,67,68);
+font-family: sans-serif;
+}
+
+table,td,th,tr{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(237,237,237);
+  height: 20px;
+  width: 40px;
+}
+a{
+  color:rgb(164,224,221);
+  font-family: sans-serif;
+}
+a:visited{
+  color:rgb(66,67,68);
+}
+
+a:hover{
+  color:rgb(91,188,172);
+}
+a:active{
+  color:rgb(19,20,20)
+}
+#climate{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+}
+#land-use{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+  overflow: scroll;
+}
+#natural-resources{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+  overflow: scroll;
+}
+#Agriculture{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+}
+#Labor-Force{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+  overflow: scroll;
+}
+#Industries{
+  background-color: rgb(237,237,237);
+  height:250px;
+  width:250px;
+  padding: 20px;
+  position: relative;
+}
+#intro-paragraphs{
+  background-color: rgb(237,237,237);
+  height:350px;
+  width:580px;
+  position: relative;
+}
+#paragraph-one{
+  background-color:rgb(91,188,172);
+  max-width: 80%;
+  position: relative;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color:rgb(66,67,68);
+  left: 45px;
+  bottom:10px;
+}
+#paragraph-two{
+  background-color:rgb(91,188,172);
+  max-width: 80%;
+  position: relative;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color:rgb(66,67,68);
+  left: 45px;
+  bottom:10px;
+}
+#tree-photo{
+  max-width: 80%;
+  position: relative;
+  border-radius: 80%;
+  padding: 10px 30px;
+  bottom: 10px;
+}
+#dollar-photo{
+  max-width: 80%;
+  position: relative;
+  top:50px;
+  left: 443px;
+}
+#dollar-caption{
+  position: relative;
+  top: 50px;
+  left: 443px;
+}
+.economy{
+  display:grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-column-gap: 30px;
+  padding: 30px;
+}
+.energy{
+  display:grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-column-gap: 30px;
+  padding: 30px;
+}
+.intro{
+  display: grid;
+  grid-template-columns:600px 600px;
+  grid-column-gap: 30px;
+  padding: 30px;
+}
+.Geography{
+  display:grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-column-gap: 30px;
+  padding: 30px;
+}
