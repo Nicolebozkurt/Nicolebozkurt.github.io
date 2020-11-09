@@ -130,7 +130,7 @@ a:active{
   font-size: 20px;
   color:rgb(66,67,68);
   left: 45px;
-  bottom:10px;
+  top: 20px;
 }
 #paragraph-two{
   background-color:rgb(91,188,172);
@@ -141,7 +141,7 @@ a:active{
   font-size: 20px;
   color:rgb(66,67,68);
   left: 45px;
-  bottom:10px;
+  top:20px;
 }
 #tree-photo{
   max-width: 80%;
