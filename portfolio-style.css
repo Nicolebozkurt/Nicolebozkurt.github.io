@@ -1,0 +1,111 @@
+#Newspaper{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(242,242,242);
+    padding: 50px;
+    position: relative;
+    left:170px;
+}
+
+#Blog{
+  height: 250px;
+  width: 250px;
+  background-color: rgb(242,242,242);
+  padding: 50px;
+  float: right;
+  position: relative;
+  bottom: 350px;
+  right:170px;
+}
+
+#designs li{
+  list-style-type: none;
+  display:inline-grid;
+  padding: 30px;
+  margin-bottom: 35px;
+}
+
+#resume{
+max-width: 60%;
+}
+
+#my-info{
+  max-width: 500px;
+  margin-left: 120px;
+  position: relative;
+  top: 130px;
+}
+
+#me{
+  float: right;
+  margin-right: 140px;
+  margin-bottom: 100px;
+  position: relative;
+  bottom: 100px;
+}
+h1{
+  font-family: 'Rubik',sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+p{
+  font-family: 'Rubik',sans-serif;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+header{
+  text-align: center;
+  background-color: rgb(170,203,206);
+  padding: 30px
+}
+
+h2{
+  font-family: 'Rubik',sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+h3{
+  font-family: 'Rubik',sans-serif;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: rgb(204,224,226);
+  padding: 15px;
+  margin-top: -10px;
+}
+
+img{
+  max-width: 335px;
+}
+
+ li{
+   font-family: 'Rubik',sans-serif;
+ }
+
+ a:link{
+   color: rgb(74,75,76);
+ }
+ a:visited{
+   color: rgb(47,48,48);
+ }
+a:hover{
+  color:rgb(170,203,206);
+}
+
+footer{
+  background-color:rgb(47,48,48);
+  font-family:'Rubik',sans-serif;
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: rgb(255,250,250);
+}
